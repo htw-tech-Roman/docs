@@ -1,0 +1,26 @@
+{
+  "bitcoin": {
+    "error": "'indicators'"
+  },
+  "ethereum": {
+    "error": "'indicators'"
+  },
+  "binancecoin": {
+    "error": "'indicators'"
+  },
+  "cardano": {
+    "error": "'indicators'"
+  },
+  "solana": {
+    "error": "'indicators'"
+  },
+  "polkadot": {
+    "error": "'indicators'"
+  },
+  "chainlink": {
+    "error": "'indicators'"
+  },
+  "litecoin": {
+    "error": "'indicators'"
+  }
+}

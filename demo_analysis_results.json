@@ -1,0 +1,450 @@
+{
+  "bitcoin": {
+    "coin_id": "bitcoin",
+    "analysis_timestamp": "2025-10-20T05:33:09.829727",
+    "timeframe_days": 7,
+    "data_points": 169,
+    "indicators": {
+      "volume_spike": {
+        "max_ratio": 4.744639515427845,
+        "avg_ratio": 1.110282777075749,
+        "extreme_spikes": 0,
+        "high_spikes": 0
+      },
+      "price_action": {
+        "max_change_1h": 19.051689160912666,
+        "min_change_1h": -4.617608543531759,
+        "volatility": 4.307645021934637,
+        "price_trend": "bullish"
+      },
+      "market_cap": {
+        "current": 143786728349.5079,
+        "change_24h": 0.3454399595361757
+      },
+      "pump_probability": 30,
+      "pump_risk_level": "LOW"
+    },
+    "news_sentiment": {
+      "sentiment_score": -0.09433733204746331,
+      "news_count": 83,
+      "positive_news": 23,
+      "negative_news": 18,
+      "neutral_news": 40,
+      "pump_mentions": 28,
+      "dump_mentions": 6,
+      "manipulation_risk": 0.18602301785224956
+    },
+    "dwf_labs_analysis": {
+      "market_maker": "DWF Labs",
+      "activity_data": {
+        "total_trades": 238,
+        "total_volume": 6059705.479025192,
+        "buy_volume": 5379113.321965542,
+        "sell_volume": 1495846.299158972,
+        "avg_trade_size": 69298.36224676615,
+        "trading_frequency": 1.2742033932914607,
+        "last_activity": "2025-10-18 15:33:09.829710"
+      },
+      "patterns_detected": [
+        "volume_spikes",
+        "coordinated_buying",
+        "large_trades"
+      ],
+      "risk_score": 70,
+      "risk_level": "HIGH",
+      "alerts": [
+        {
+          "type": "high",
+          "message": "DWF Labs showing high risk patterns",
+          "patterns": [
+            "volume_spikes",
+            "coordinated_buying",
+            "large_trades"
+          ]
+        },
+        {
+          "type": "pattern",
+          "message": "Coordinated buying patterns detected",
+          "severity": "high"
+        },
+        {
+          "type": "pattern",
+          "message": "Unusual volume spikes detected",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "comprehensive_risk_score": 41.91505998071195,
+    "comprehensive_risk_level": "MODERATE",
+    "recommendations": [
+      "\u26a1 MODERATE RISK: Unusual activity detected. Stay alert",
+      "\ud83d\udcc8 Consider setting stop-loss orders",
+      "\u26a0\ufe0f Coordinated buying patterns detected - high manipulation risk"
+    ]
+  },
+  "ethereum": {
+    "coin_id": "ethereum",
+    "analysis_timestamp": "2025-10-20T05:33:09.965976",
+    "timeframe_days": 7,
+    "data_points": 169,
+    "indicators": {
+      "volume_spike": {
+        "max_ratio": 4.719964051577303,
+        "avg_ratio": 1.0545845596405268,
+        "extreme_spikes": 0,
+        "high_spikes": 0
+      },
+      "price_action": {
+        "max_change_1h": 47.444940924863154,
+        "min_change_1h": -2.5990215840860587,
+        "volatility": 10.956465978989591,
+        "price_trend": "bullish"
+      },
+      "market_cap": {
+        "current": 96922676427.32343,
+        "change_24h": 0.2337452005089391
+      },
+      "pump_probability": 55,
+      "pump_risk_level": "MODERATE"
+    },
+    "news_sentiment": {
+      "sentiment_score": -0.7037132815195198,
+      "news_count": 29,
+      "positive_news": 4,
+      "negative_news": 9,
+      "neutral_news": 11,
+      "pump_mentions": 11,
+      "dump_mentions": 4,
+      "manipulation_risk": 0.21028508155732087
+    },
+    "dwf_labs_analysis": {
+      "market_maker": "DWF Labs",
+      "activity_data": {
+        "total_trades": 152,
+        "total_volume": 4102912.8076637466,
+        "buy_volume": 6032090.948837988,
+        "sell_volume": 568700.4975993072,
+        "avg_trade_size": 63061.59516009363,
+        "trading_frequency": 2.010168649988164,
+        "last_activity": "2025-10-18 12:33:09.965961"
+      },
+      "patterns_detected": [
+        "coordinated_buying",
+        "large_trades"
+      ],
+      "risk_score": 45,
+      "risk_level": "MODERATE",
+      "alerts": [
+        {
+          "type": "pattern",
+          "message": "Coordinated buying patterns detected",
+          "severity": "high"
+        }
+      ]
+    },
+    "comprehensive_risk_score": 53.555699222792796,
+    "comprehensive_risk_level": "MODERATE",
+    "recommendations": [
+      "\u26a1 MODERATE RISK: Unusual activity detected. Stay alert",
+      "\ud83d\udcc8 Consider setting stop-loss orders",
+      "\u26a0\ufe0f Coordinated buying patterns detected - high manipulation risk"
+    ]
+  },
+  "solana": {
+    "coin_id": "solana",
+    "analysis_timestamp": "2025-10-20T05:33:10.011927",
+    "timeframe_days": 7,
+    "data_points": 169,
+    "indicators": {
+      "volume_spike": {
+        "max_ratio": 4.9243206287887205,
+        "avg_ratio": 1.0067388538420052,
+        "extreme_spikes": 0,
+        "high_spikes": 0
+      },
+      "price_action": {
+        "max_change_1h": 11.495741129482662,
+        "min_change_1h": -4.6198605612540415,
+        "volatility": 3.0286929545316608,
+        "price_trend": "bullish"
+      },
+      "market_cap": {
+        "current": 521119234.60619015,
+        "change_24h": 1.1905042468336902
+      },
+      "pump_probability": 30,
+      "pump_risk_level": "LOW"
+    },
+    "news_sentiment": {
+      "sentiment_score": -0.23780231944818275,
+      "news_count": 96,
+      "positive_news": 24,
+      "negative_news": 23,
+      "neutral_news": 44,
+      "pump_mentions": 43,
+      "dump_mentions": 21,
+      "manipulation_risk": 0.2509846394389121
+    },
+    "dwf_labs_analysis": {
+      "market_maker": "DWF Labs",
+      "activity_data": {
+        "total_trades": 94,
+        "total_volume": 3243666.3505986133,
+        "buy_volume": 5686027.99291568,
+        "sell_volume": 683467.5233836472,
+        "avg_trade_size": 94911.15395470586,
+        "trading_frequency": 6.588105202658893,
+        "last_activity": "2025-10-18 10:33:10.011912"
+      },
+      "patterns_detected": [
+        "high_frequency_trading",
+        "coordinated_buying",
+        "large_trades"
+      ],
+      "risk_score": 65,
+      "risk_level": "HIGH",
+      "alerts": [
+        {
+          "type": "high",
+          "message": "DWF Labs showing high risk patterns",
+          "patterns": [
+            "high_frequency_trading",
+            "coordinated_buying",
+            "large_trades"
+          ]
+        },
+        {
+          "type": "pattern",
+          "message": "Coordinated buying patterns detected",
+          "severity": "high"
+        }
+      ]
+    },
+    "comprehensive_risk_score": 42.56703479172274,
+    "comprehensive_risk_level": "MODERATE",
+    "recommendations": [
+      "\u26a1 MODERATE RISK: Unusual activity detected. Stay alert",
+      "\ud83d\udcc8 Consider setting stop-loss orders",
+      "\u26a0\ufe0f Coordinated buying patterns detected - high manipulation risk"
+    ]
+  },
+  "cardano": {
+    "coin_id": "cardano",
+    "analysis_timestamp": "2025-10-20T05:33:10.054954",
+    "timeframe_days": 7,
+    "data_points": 169,
+    "indicators": {
+      "volume_spike": {
+        "max_ratio": 1.618612884938128,
+        "avg_ratio": 0.8818172101285385,
+        "extreme_spikes": 0,
+        "high_spikes": 0
+      },
+      "price_action": {
+        "max_change_1h": 2.5894497671836048,
+        "min_change_1h": -3.622685967583339,
+        "volatility": 1.8048843897484534,
+        "price_trend": "bullish"
+      },
+      "market_cap": {
+        "current": 7108435.587263019,
+        "change_24h": 1.921724732375374
+      },
+      "pump_probability": 0,
+      "pump_risk_level": "MINIMAL"
+    },
+    "news_sentiment": {
+      "sentiment_score": -0.7476845358871164,
+      "news_count": 94,
+      "positive_news": 14,
+      "negative_news": 32,
+      "neutral_news": 33,
+      "pump_mentions": 36,
+      "dump_mentions": 6,
+      "manipulation_risk": 0.014106967174455365
+    },
+    "dwf_labs_analysis": {
+      "market_maker": "DWF Labs",
+      "activity_data": {
+        "total_trades": 80,
+        "total_volume": 4439138.314898036,
+        "buy_volume": 4909432.555155818,
+        "sell_volume": 3769727.701607071,
+        "avg_trade_size": 28753.22225042032,
+        "trading_frequency": 2.0278646869092087,
+        "last_activity": "2025-10-19 07:33:10.054941"
+      },
+      "patterns_detected": [
+        "coordinated_buying"
+      ],
+      "risk_score": 30,
+      "risk_level": "LOW",
+      "alerts": [
+        {
+          "type": "pattern",
+          "message": "Coordinated buying patterns detected",
+          "severity": "high"
+        }
+      ]
+    },
+    "comprehensive_risk_score": 27.715268038306746,
+    "comprehensive_risk_level": "LOW",
+    "recommendations": [
+      "\u2705 LOW RISK: Normal market conditions detected",
+      "\u26a0\ufe0f Coordinated buying patterns detected - high manipulation risk"
+    ]
+  },
+  "chainlink": {
+    "coin_id": "chainlink",
+    "analysis_timestamp": "2025-10-20T05:33:10.096784",
+    "timeframe_days": 7,
+    "data_points": 169,
+    "indicators": {
+      "volume_spike": {
+        "max_ratio": 1.5344977638104007,
+        "avg_ratio": 0.9783184393832562,
+        "extreme_spikes": 0,
+        "high_spikes": 0
+      },
+      "price_action": {
+        "max_change_1h": 4.099175097790897,
+        "min_change_1h": -4.423338374032337,
+        "volatility": 1.979192686488571,
+        "price_trend": "bearish"
+      },
+      "market_cap": {
+        "current": 164476043.99854776,
+        "change_24h": -0.7429368285315485
+      },
+      "pump_probability": 0,
+      "pump_risk_level": "MINIMAL"
+    },
+    "news_sentiment": {
+      "sentiment_score": 0.7227535050097005,
+      "news_count": 92,
+      "positive_news": 40,
+      "negative_news": 5,
+      "neutral_news": 33,
+      "pump_mentions": 33,
+      "dump_mentions": 12,
+      "manipulation_risk": 0.290377137405839
+    },
+    "dwf_labs_analysis": {
+      "market_maker": "DWF Labs",
+      "activity_data": {
+        "total_trades": 181,
+        "total_volume": 1315988.9422738801,
+        "buy_volume": 1314101.207494413,
+        "sell_volume": 2327073.3210684536,
+        "avg_trade_size": 86221.73386169292,
+        "trading_frequency": 6.904014794728569,
+        "last_activity": "2025-10-18 17:33:10.096771"
+      },
+      "patterns_detected": [
+        "high_frequency_trading",
+        "coordinated_buying",
+        "large_trades"
+      ],
+      "risk_score": 65,
+      "risk_level": "HIGH",
+      "alerts": [
+        {
+          "type": "high",
+          "message": "DWF Labs showing high risk patterns",
+          "patterns": [
+            "high_frequency_trading",
+            "coordinated_buying",
+            "large_trades"
+          ]
+        },
+        {
+          "type": "pattern",
+          "message": "Coordinated buying patterns detected",
+          "severity": "high"
+        }
+      ]
+    },
+    "comprehensive_risk_score": 37.841302575145505,
+    "comprehensive_risk_level": "LOW",
+    "recommendations": [
+      "\u2705 LOW RISK: Normal market conditions detected",
+      "\u26a0\ufe0f Coordinated buying patterns detected - high manipulation risk"
+    ]
+  },
+  "polkadot": {
+    "coin_id": "polkadot",
+    "analysis_timestamp": "2025-10-20T05:33:10.138694",
+    "timeframe_days": 7,
+    "data_points": 169,
+    "indicators": {
+      "volume_spike": {
+        "max_ratio": 1.9749745992994454,
+        "avg_ratio": 0.9699556978094984,
+        "extreme_spikes": 0,
+        "high_spikes": 0
+      },
+      "price_action": {
+        "max_change_1h": 5.275645626098258,
+        "min_change_1h": -2.836285349437595,
+        "volatility": 2.12028174161561,
+        "price_trend": "bullish"
+      },
+      "market_cap": {
+        "current": 32506444.425207667,
+        "change_24h": 5.275645626098258
+      },
+      "pump_probability": 10,
+      "pump_risk_level": "MINIMAL"
+    },
+    "news_sentiment": {
+      "sentiment_score": -0.13966760808527723,
+      "news_count": 19,
+      "positive_news": 5,
+      "negative_news": 4,
+      "neutral_news": 9,
+      "pump_mentions": 8,
+      "dump_mentions": 5,
+      "manipulation_risk": 0.1296280213458399
+    },
+    "dwf_labs_analysis": {
+      "market_maker": "DWF Labs",
+      "activity_data": {
+        "total_trades": 392,
+        "total_volume": 9327439.588854944,
+        "buy_volume": 3186069.5467814654,
+        "sell_volume": 1912937.9809692616,
+        "avg_trade_size": 64293.67076867639,
+        "trading_frequency": 7.429711948911541,
+        "last_activity": "2025-10-18 17:33:10.138680"
+      },
+      "patterns_detected": [
+        "volume_spikes",
+        "high_frequency_trading",
+        "large_trades"
+      ],
+      "risk_score": 60,
+      "risk_level": "HIGH",
+      "alerts": [
+        {
+          "type": "high",
+          "message": "DWF Labs showing high risk patterns",
+          "patterns": [
+            "volume_spikes",
+            "high_frequency_trading",
+            "large_trades"
+          ]
+        },
+        {
+          "type": "pattern",
+          "message": "Unusual volume spikes detected",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "comprehensive_risk_score": 31.595014121279156,
+    "comprehensive_risk_level": "LOW",
+    "recommendations": [
+      "\u2705 LOW RISK: Normal market conditions detected"
+    ]
+  }
+}
